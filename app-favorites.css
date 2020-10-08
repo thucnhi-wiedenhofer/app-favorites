@@ -1,0 +1,79 @@
+body{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@font-face{
+    font-family: 'hellovalentina';
+    src: url('hellovalentina.ttf');
+}
+
+#baniere{
+    width: 400px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #404352;
+}
+
+h1{
+    font-family: 'hellovalentina';
+    font-size: 50px;
+    align-items: center;
+    color:white;
+    padding-top: 50%;
+}
+
+#logos{
+    padding-bottom: 10%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#waze{
+    display: flex;
+    border-style: none;
+    background-color: #879ea6;
+    padding-left: 15px;
+}
+
+#vinted{
+    display: flex;
+    padding-right: 15px;
+    border-style: none ;
+    background-color: #f8bd49;
+}
+
+#whatsapp{
+    display: flex;
+    border-style: none;
+    background-color: #879ea6;
+    padding-left: 15px;
+}
+
+
+h2 a{
+    float:left;
+    text-decoration: none;
+    color: tomato;
+    font-family: hellovalentina;
+    font-size: 50px;
+    padding-top: 30%;
+    padding-left: 15px;
+   
+}
+
+p{
+    padding-top: 5%;
+    font-size: 18px;
+    
+}    
