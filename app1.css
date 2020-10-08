@@ -1,0 +1,63 @@
+body{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+@font-face{
+    font-family: 'rubikmedium';     
+    src: url('fonts/rubikmedium.ttf'); 
+}
+
+@font-face{
+    font-family: 'rubikbold';
+    src: url('fonts/rubikbold.ttf'); 
+}
+
+@font-face{
+    font-family: 'boing';
+    src:url('fonts/boing.ttf')
+}
+
+h1{
+    font-family: 'rubikbold''sans-serif';
+    font-size: 40px;
+    margin: 30px;
+   
+}
+
+#slogan{
+    display: block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCE354;
+    width:30%;
+    
+}
+
+#description{
+    display: block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #963EFF;
+    color: white;
+    width:70%;
+}
+
+#carpool{
+    display: block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color:#1EE592;
+    color:black; 
+}
