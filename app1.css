@@ -1,10 +1,11 @@
 body{
     height: 100%;
-    margin: 0px;
+    margin: 3%;
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
+    justify-items: center;
     justify-content: space-between;
 }
 
@@ -12,6 +13,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-style: none;
+    margin: 30px;
    
 }
 @font-face{
@@ -29,35 +32,98 @@ body{
     src:url('fonts/boing.ttf')
 }
 
+@font-face{
+    font-family: 'reseaux.ttf';
+    src: url('fonts/reseaux.ttf');
+}
+
 h1{
     font-family: 'rubikbold''sans-serif';
     font-size: 40px;
     margin: 30px;
    
 }
-
 #slogan{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    margin: 20px;
+}
+
+#slogan p{
     display: block;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #FCE354;
-    width:30%;
-    
+    width:50%;
+    height: 350px;
+    padding: 5%;
+    text-align: justify;
+}
+
+#emoticones{
+    border-radius: 10px;
 }
 
 #description{
-    display: block;
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
     border-radius: 10px;
     box-sizing: border-box;
     background-color: #963EFF;
     color: white;
-    width:70%;
+    width:85%;
+    padding: 20px;
+    margin-left: 8%;
 }
 
-#carpool{
+#description p{
+    padding: 10%;
+}
+
+#contenair{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:8%;
+    width: 85%;
+    padding:20px;
+}
+
+#telechargement{
+    border-style:none;
+    width:50%;
+    height: 500px;
+    padding:40px;
+    margin: 20px;
+}
+
+aside{
     display: block;
     border-radius: 10px;
     box-sizing: border-box;
+    align-items: center;
     background-color:#1EE592;
     color:black; 
+    margin: 20px;
+    padding: 20px;
+    width:60%;
+    height: 500px;
+}
+
+.logo{
+    font-family: 'reseaux.ttf';
+    font-size: 200px;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: none;
+    border-radius:10px;
+    background-color: #F3F3EE;
+    padding: 20px;
 }

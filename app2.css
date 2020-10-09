@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    margin: 3%;
+    font-family: 'maison neue', 'helvetica neue', 'arial', 'sans serif';
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+@font-face{
+    font-family: 'reseaux.ttf';
+    src: url('fonts/reseaux.ttf');
+}
+
+#entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: none;
+    margin: 30px;
+   color:#999999;
+}
+
+#presentation{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+   
+    background-color: #09B1BA;
+}
+
+#slogan p{   
+    width:30%;
+    height: 350px;
+   
+}
+
+#description{
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    
+    box-sizing: border-box;
+    background-color: #ebedee;
+    color: #09B1BA;
+    
+    margin-left: %;
+}
+
+#description p{
+    padding: 5%;
+}
+
+#contenair{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:8%;
+    width: 85%;
+    padding:20px;
+}
+
+#telechargement{
+    border-style:none;
+    width:50%;
+    height: 500px;
+    padding:40px;
+    margin: 20px;
+}
+.logo{
+    font-family: 'reseaux.ttf';
+    font-size: 200px;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    background-color: #F3F3EE;
+    padding: 20px;
+}

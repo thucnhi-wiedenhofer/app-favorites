@@ -40,6 +40,7 @@ main{
 
 #waze{
     display: flex;
+    justify-content: space-between;
     border-style: none;
     background-color: #879ea6;
     padding-left: 15px;
@@ -48,6 +49,7 @@ main{
 
 #vinted{
     display: flex;
+    justify-content: space-between;
     padding-right: 15px;
     border-style: none ;
     background-color: #f8bd49;
@@ -55,6 +57,7 @@ main{
 
 #whatsapp{
     display: flex;
+    justify-content: space-between;
     border-style: none;
     background-color: #879ea6;
     padding-left: 15px;
@@ -62,8 +65,10 @@ main{
 
 .presentation a{
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-decoration: none;
+   
 }
 .presentation p:hover{
     opacity:0.5;
@@ -78,11 +83,10 @@ h2 {
     font-family: hellovalentina;
     font-size: 50px;
     padding-left: 15px;
-    float: left;
 }
 
-p{
-    padding-top: 25%;
+p, ul{
+    
     padding-right: 15px;
     font-size: 18px;
     color:#282828;
