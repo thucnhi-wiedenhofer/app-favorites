@@ -1,0 +1,142 @@
+body{
+    height: 100%;
+    margin: 0px;
+    font-family:'apple-system','blinkmacsystemfont', 'helvetica','arial' ,'sans-serif';
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+#entete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    background-color: #00BFA5;
+    color:white;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    border-style: none;
+    height: 70px;
+}
+#menu li{
+    padding: 20px;
+    list-style-type: none;
+    
+    font-size: 16px;
+}
+
+#menu a{
+    text-decoration: none;
+    color:#00000080 ;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+#titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 20px;
+}
+
+@font-face{
+    font-family: 'reseaux.ttf';
+    src: url('fonts/reseaux.ttf');
+}
+.logo {
+    font-family: 'reseaux.ttf';
+    font-size: 100px;
+}
+.contenair .logo {
+    font-family: 'reseaux.ttf';
+    font-size: 200px;
+    text-decoration: none;
+}
+
+.contenair{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px; 
+    margin:40px; 
+    
+}
+
+#description{
+    border-style: none;
+    align-items: center;
+    background-color: #D0E9EA;
+    color:#282828;
+    width:50%;
+    height: 300px;
+    padding: 40px;
+   
+}
+span{
+    color: #39B3ED;
+}
+#description p{
+    padding: 10%;
+}
+
+
+#telechargement{
+    justify-items: center;
+    border-style:none;
+    width:50%;
+    height: 300px;
+    padding:40px;
+    background-color: #EDF8F5;
+    color: #00000080;
+}
+
+h2{
+    text-align: center;
+    margin-left: 38%;
+    border: solid 2px #77d7c8;
+    border-radius: 40px;
+    padding: 18px 32px;
+    width:18%;
+    color: #1CB39B;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#fonctionnalites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+    background-color: #77D7c8;
+    color:#00000080;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: none;  
+    background-color: #273443;
+    color: white;
+    padding: 20px;
+}
+
+#reseaux .logo{
+    width: 100px;
+    text-decoration: none;
+    align-items: center;
+}

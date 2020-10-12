@@ -3,7 +3,7 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: row;
-    
+    line-height: 1.5;
 }
 
 @font-face{
@@ -26,11 +26,18 @@ h1{
     font-size: 50px;
     align-items: center;
     color:white;
-    padding-top: 50%;
+    padding-top: 60%;
+}
+#logos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#logos{
+#logos li{
     padding-bottom: 10%;
+    list-style-type: none;
 }
 
 main{
@@ -39,6 +46,7 @@ main{
 }
 
 #waze{
+    height: 35%;
     display: flex;
     justify-content: space-between;
     border-style: none;
@@ -48,6 +56,7 @@ main{
 }
 
 #vinted{
+    height: 36%;
     display: flex;
     justify-content: space-between;
     padding-right: 15px;
@@ -56,11 +65,13 @@ main{
 }
 
 #whatsapp{
+    height: 32%;
     display: flex;
     justify-content: space-between;
     border-style: none;
     background-color: #879ea6;
     padding-left: 15px;
+    
 }
 
 .presentation a{
@@ -83,6 +94,7 @@ h2 {
     font-family: hellovalentina;
     font-size: 50px;
     padding-left: 15px;
+    margin-bottom: 0%;
 }
 
 p, ul{

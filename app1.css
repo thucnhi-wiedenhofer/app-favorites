@@ -1,8 +1,8 @@
 body{
     height: 100%;
-    margin: 3%;
     font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -10,13 +10,37 @@ body{
 }
 
 #entete{
-    display: flex;
-    flex-direction: row;
+    display: block;
+    flex-direction: column;
     justify-content: center;
     border-style: none;
-    margin: 30px;
-   
+    border-radius: 10px;
+    padding: 20px;
+    
 }
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    border-style: none;
+    background-color:#F3F3EE; 
+    height: 70px;
+}
+#menu li{
+    padding: 20px;
+    list-style-type: none;
+    color:#879ea6;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
 @font-face{
     font-family: 'rubikmedium';     
     src: url('fonts/rubikmedium.ttf'); 
@@ -37,10 +61,16 @@ body{
     src: url('fonts/reseaux.ttf');
 }
 
+#titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 h1{
     font-family: 'rubikbold''sans-serif';
     font-size: 40px;
-    margin: 30px;
+    margin: 40px;
    
 }
 #slogan{
@@ -95,8 +125,8 @@ h1{
     border-style:none;
     width:50%;
     height: 500px;
-    padding:40px;
-    margin: 20px;
+    padding-top:10%;
+   
 }
 
 aside{
