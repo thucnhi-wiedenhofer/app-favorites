@@ -73,14 +73,11 @@ h1{
     display: flex;
     justify-content: space-around;    
     align-items: center;
-    
     box-sizing: border-box;
     background-color: #ebedee;
     color: #09B1BA;
+}   
     
-    margin-left: %;
-}
-
 #description p{
     padding: 5%;
 }
